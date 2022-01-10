@@ -1,0 +1,128 @@
+* {
+  box-sizing: border-box;
+}
+.container-fluid {
+  font-family: "Architects Daughter", cursive;
+  font-family: "Nunito", sans-serif;
+  font-family: "Quicksand", sans-serif;
+}
+.container-fluid a {
+  font-family: "Architects Daughter", cursive;
+  font-size: 20px;
+}
+#logos{
+  text-decoration: none;
+  font-family: "Cinzel", serif;
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+}
+img {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+.container-fluid p {
+  font-family: "Cinzel", serif;
+
+  font-family: "Nunito", sans-serif;
+
+  font-family: "Quicksand", sans-serif;
+
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 18px;
+  font-weight: 550;}
+@media (min-width: 320px) {
+  img {
+    width: 100%;
+  }
+  .carousel-inner img {
+    width: 50%;
+    /*phones*/
+  }
+  #logo{
+    width: 15%;
+  }
+  #Home img{
+    width: 60px;
+  }
+}
+@media (min-width: 480px) {
+  img {
+    width: 100%;
+  }
+  .carousel-inner img {
+    width: 60%;
+    /*phones*/
+  }
+  #Home img{
+    width: 60px;
+  }
+  #logo{
+    width: 10%;
+  }
+}
+@media (min-width: 600px) {
+  img {
+    width: 85%;
+  }
+  #Home img{
+    width: 70px;
+  }
+  #logo{
+    width: 7.5%;
+  }
+  /*tablets*/
+}
+@media (min-width: 801px) {
+  img {
+    width: 85%;
+  }
+  #Home img{
+    width: 75px;
+  }
+  #logo{
+    width: 5%;
+  }
+  /*lo-re laptops*/
+}
+@media (min-width: 1025px) {
+  img {
+    width: 75%;
+  }
+  #Home img{
+    width: 100px;
+  }
+  main {
+    max-width: 80%;
+    margin: auto;
+  }
+  .carousel-inner img {
+    width: 25%;
+  }
+  #logo{
+    width: 5%;
+  }
+  /*laptops*/
+}
+@media (min-width: 1281px) {
+  img {
+    width: 70%;
+  }
+  main {
+    max-width: 75%;
+    margin: auto;
+  }
+  .carousel-inner img {
+    width: 25%;}
+    #Home img{
+      width: 100px;
+    }
+    #logo{
+      width: 5%;
+    }
+    /*high-re laptops*/
+}
+

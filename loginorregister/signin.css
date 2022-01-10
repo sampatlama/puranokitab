@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito", sans-serif;
+}
+.container {
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  max-width: 60%;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.item {
+  border-radius: 15px;
+  text-align: center;
+  height: 360px;
+  color: rgb(0, 0, 0);
+  width: 400px;
+  margin: 0 auto;
+  margin: 20px;
+  border: 1px solid rgb(0, 0, 0);
+  padding: 16px;
+
+}
+input {
+  width: 280px;
+  font-size: 16px;
+    color: aliceblue;
+    box-shadow: none;
+    padding: 5px;
+    margin: 0px auto;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    background-color: #ffffff;
+    /* border-radius: 5px; */
+    color: black;
+}
+#remember{
+  width: 10px;
+  margin: 5px auto;
+  
+}
+#remembers{
+  width: 10px;
+  margin: 5px auto;
+  
+}
+.buttons{
+  font-size: 16px;
+  padding: 5px;
+  margin-top: 5px;
+  width: 280px;
+  background-color: #000000;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  color: white;
+}
+label{
+  font-size: 16px;
+  font-family: "Nunito", sans-serif;
+}
+body{
+  background-color:  beige;
+}
+form a{
+  text-decoration: none;
+  color: black;
+}
+.item h3{
+  font-family:  "Nunito", sans-serif;
+}
